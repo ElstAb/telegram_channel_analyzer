@@ -1,0 +1,13 @@
+telethon
+litellm
+sqlalchemy
+alembic
+pydantic
+pydantic-settings
+python-dotenv
+tzlocal
+loguru
+pymysql
+
+# Пример DATABASE_URL для .env (не для pip):
+# mysql+pymysql://user:pass@localhost/db

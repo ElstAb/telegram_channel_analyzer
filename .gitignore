@@ -1,0 +1,45 @@
+# Секреты и локальная конфигурация
+.env
+.env.local
+.env.*.local
+
+# Telethon: сессия = доступ к аккаунту Telegram
+sessions/
+*.session
+*.session-journal
+
+# База данных (SQLite по умолчанию; при MySQL в URL — пароль в .env)
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.db
+
+# Логи (могут содержать тексты каналов и промпты)
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE / ОС
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
